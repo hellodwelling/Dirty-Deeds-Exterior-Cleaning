@@ -61,8 +61,10 @@
       <a class="px-4 py-2 mt-2 text-lg  font-bold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 lg:mt-0 lg:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="#find-us">Find Us</a>
       
       
-      <div class = "px-4 py-2 lg:pb-3 mt-2 text-xl font-bold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 lg:mt-0 lg:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"x-data="{open: false}">
-      <a x-on:click.prevent="open = true" class="" href="">Send Us a Text</a>
+         <div class = "px-4 py-2 lg:pb-3 mt-2 text-xl font-bold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 lg:mt-0 lg:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"x-data="{open: false}">
+        
+            <a x-on:click.prevent="open = true" class="" href="">Send Us a Text</a>
+        
       
         <div x-show.transition.opacity="open" class="p-4 fixed flex justify-center items-center inset-0 bg-black bg-opacity-75 z-50">
                 <form x-on:click.away="open = false" x-show.transition="open" class="max-w-3xl max-h-full h-auto p-8 py-10 overflow-auto bg-white border-b-2 border-gray-300 rounded-lg shadow-2xl px-7 mt-16 md:mt-0 md:w-2/5">
@@ -202,6 +204,7 @@
                 </div>
             	
             
+            
             </div>
             
                 <div class = "mt-10 mb-0 flex flex-row justify-center lg:justify-start text-center w-full lg:max-w-lg">
@@ -225,6 +228,7 @@
                 
                 
                 
+                 
                            
                   
                </div>
@@ -236,28 +240,28 @@
                     </h5>
                 </div>
                 
-                <div class="mt-10 mb-0 flex flex-row justify-center  text-center w-full lg:max-w-lg ">
+                <div class="mt-10 mb-0 flex flex-col items-center md:flex-row justify-center text-center w-full lg:max-w-lg ">
                     
                         <div class = "flex flex-col col-span-1">
-                        <img class="object-contain w-full h-24" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/toprated_xglFVWx.png" alt="award photo"> 
+                        <img class="object-contain pt-8 w-full h-32" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/toprated_xglFVWx.png" alt="award photo"> 
                         <br>
                         <p class="font-large font-bold text-gray-500 text-center"> HomeAdvisor Top Rated </p>
                         </div>
                     
                         <div class = "flex flex-col col-span-1">
-                        <img class="object-contain w-full h-24" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/elite_XFQ2tdD.png" alt="award photo"> 
+                        <img class="object-contain pt-8 w-full h-32" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/elite_XFQ2tdD.png" alt="award photo"> 
                         <br>
                         <p class="font-large font-bold text-gray-500 text-center"> HomeAdvisor Elite Service </p>
                         </div>
                     
                         <div class = "flex flex-col col-span-1">
-                        <img class="object-contain w-full h-24" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/50reviews_BwNEwlK.png" alt="award photo"> 
+                        <img class="object-contain pt-8 w-full h-32" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/50reviews_BwNEwlK.png" alt="award photo"> 
                         <br>
                         <p class="font-large font-bold text-gray-500 text-center"> HomeAdvisor 50 reviews </p>
                         </div>
                     
                         <div class = "flex flex-col col-span-1">
-                        <img class="object-contain w-full h-24" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/soap_c7M0mHe.png" alt="award photo"> 
+                        <img class="object-contain pt-8 w-full h-32" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/soap_c7M0mHe.png" alt="award photo"> 
                         <br>
                         <p class="font-large font-bold text-gray-500 text-center"> HomeAdvisor Screened &amp; Approved </p>
                         </div>
@@ -393,7 +397,7 @@
                    
                     <div class="flex flex-col sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 text-center space-y-3">
                      
-                        <img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/159578006_102636691909981_2714440216442434363_o.jpg" alt="">
+                        <img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/159578006_102636691909981_2714440216442434363_o.jpg"  loading="lazy" alt="photo of past work">
                      
                          
                         <p class="font-medium  text-gray-500 text-center"> Professional </p>
@@ -408,7 +412,7 @@
                    
                     <div class="flex flex-col sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 text-center space-y-3">
                      
-                        <img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/160219604_102637405243243_8951769822680163170_o.jpg" alt="">
+                        <img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/160219604_102637405243243_8951769822680163170_o.jpg"  loading="lazy" alt="photo of past work">
                      
                          
                         <p class="font-medium  text-gray-500 text-center"> Expert </p>
@@ -423,7 +427,7 @@
                    
                     <div class="flex flex-col sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 text-center space-y-3">
                      
-                        <img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/159765877_102637388576578_3849133855420025338_o.jpg" alt="">
+                        <img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/159765877_102637388576578_3849133855420025338_o.jpg"  loading="lazy" alt="photo of past work">
                      
                          
                         <p class="font-medium  text-gray-500 text-center"> Thorough </p>
@@ -438,7 +442,7 @@
                    
                     <div class="flex flex-col sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 text-center space-y-3">
                      
-                        <img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/159825433_102636431910007_2838752766412675911_o_1_OEBhCLP.jpg" alt="">
+                        <img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/159825433_102636431910007_2838752766412675911_o_1_OEBhCLP.jpg"  loading="lazy" alt="photo of past work">
                      
                          
                         <p class="font-medium  text-gray-500 text-center"> Experienced </p>
@@ -453,7 +457,7 @@
                    
                     <div class="flex flex-col sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 text-center space-y-3">
                      
-                        <img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/159791592_102634921910158_8677317162666098738_o.jpg" alt="">
+                        <img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/159791592_102634921910158_8677317162666098738_o.jpg"  loading="lazy" alt="photo of past work">
                      
                          
                         <p class="font-medium  text-gray-500 text-center"> Crisp </p>
@@ -468,7 +472,7 @@
                    
                     <div class="flex flex-col sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 text-center space-y-3">
                      
-                        <img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/160267293_102632635243720_2322465562352895391_o.jpg" alt="">
+                        <img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/160267293_102632635243720_2322465562352895391_o.jpg"  loading="lazy" alt="photo of past work">
                      
                          
                         <p class="font-medium  text-gray-500 text-center"> Polished </p>
@@ -483,7 +487,7 @@
                    
                     <div class="flex flex-col sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 text-center space-y-3">
                      
-                        <img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/159793767_102637031909947_1437276291714807001_o.jpg" alt="">
+                        <img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/159793767_102637031909947_1437276291714807001_o.jpg"  loading="lazy" alt="photo of past work">
                      
                          
                         <p class="font-medium  text-gray-500 text-center"> Clean </p>
@@ -498,7 +502,7 @@
                    
                     <div class="flex flex-col sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 text-center space-y-3">
                      
-                        <img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/160568800_102638231909827_2427030170148434300_o.jpg" alt="">
+                        <img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/160568800_102638231909827_2427030170148434300_o.jpg"  loading="lazy" alt="photo of past work">
                      
                          
                         <p class="font-medium  text-gray-500 text-center"> Complete </p>
@@ -513,7 +517,7 @@
                    
                     <div class="flex flex-col sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 text-center space-y-3">
                      
-                        <img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/160039906_102638205243163_7336844341729245931_o.jpg" alt="">
+                        <img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/160039906_102638205243163_7336844341729245931_o.jpg"  loading="lazy" alt="photo of past work">
                      
                          
                         <p class="font-medium  text-gray-500 text-center"> Beautiful </p>
